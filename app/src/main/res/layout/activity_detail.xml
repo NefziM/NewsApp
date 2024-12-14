@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B1135"
+        android:elevation="4dp"
+        android:titleTextColor="@android:color/white"
+        android:layout_marginBottom="16dp"
+        android:title="Article Detail" />
+
+    <ImageView
+        android:id="@+id/articleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:contentDescription="Article Image"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4sp"
+        android:padding="16dp"
+        android:textColor="#555555"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
